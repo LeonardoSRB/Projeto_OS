@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import "sign_up.css";
 import { useNavigate } from 'react-router-dom'
-
+import "./sign_up.css"
 
 const Register = () => {
     const [usuario, setUsuario] = useState('');
@@ -60,7 +60,7 @@ const Register = () => {
                     required
                     placeholder='Insira uma senha'/>
                 </div>
-                <button type='submit' onClick={navigate('/login')}>Cadastrar</button>
+                <button className='btn' type='submit' onClick={navigate('/login')}>Cadastrar</button>
             </form>
             {mensagem && <p>{mensagem}</p>}
         </div>

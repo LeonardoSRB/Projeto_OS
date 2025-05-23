@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./login.css"
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-
+import "./login.css"
 export default function Login() {
     const [user, setUser] = useState('')
     const [password, setPassword] = useState('')
@@ -29,7 +29,7 @@ export default function Login() {
     }
 
     return(
-        <div className="Container_login">
+        <div className="container_login">
             <section className="section_login">
                 <p>Usuário:</p>
                 <input 

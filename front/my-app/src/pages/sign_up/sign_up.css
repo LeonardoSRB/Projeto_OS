@@ -1,0 +1,13 @@
+.form {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form input {
+    border-radius: 8px
+}
+
+.btn {
+    background-color: red;
+    border-radius: 8px;
+}

@@ -1,0 +1,13 @@
+.container_login {
+    background-color: #ffff;
+    border-radius: 8px;
+}
+
+.section_login input {
+    border-radius: 8;
+}
+
+.btn {
+    border-radius: 8px;
+    background-color: red;
+}
